@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Myntra Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+
+  <div class="announce">
+    <div class="announce-track">
+      <span>🎉 FLAT ₹300 OFF ON FIRST PURCHASE — USE CODE <b>MYNTRA300</b></span>
+      <span>✨ FREE SHIPPING ON ORDERS ABOVE ₹999</span>
+      <span>🔥 END OF SEASON SALE — UP TO 80% OFF</span>
+      <span>🎉 FLAT ₹300 OFF ON FIRST PURCHASE — USE CODE <b>MYNTRA300</b></span>
+      <span>✨ FREE SHIPPING ON ORDERS ABOVE ₹999</span>
+      <span>🔥 END OF SEASON SALE — UP TO 80% OFF</span>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="logo">Myntra</div>
+
+    <nav class="menu">
+      <a href="#">All</a>
+      <a href="#">Men</a>
+      <a href="#">Women</a>
+      <a href="#">Kids</a>
+      <a href="#">Beauty</a>
+      <a href="#">Home</a>
+    </nav>
+
+    <div class="right">
+      <form class="search" onsubmit="event.preventDefault()">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search for products, brands and more" />
+      </form>
+
+      <button class="icon-btn">
+        <i class="fa-solid fa-user"></i>
+        <span>Profile</span>
+      </button>
+
+      <button class="icon-btn">
+        <i class="fa-solid fa-heart"></i>
+        <span>Wishlist</span>
+      </button>
+
+      <button class="icon-btn" id="openCart">
+        <i class="fa-solid fa-bag-shopping"></i>
+        <span>Bag</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p>END OF SEASON SALE</p>
+      <h1>FASHION<br /><span class="grad">FIESTA</span></h1>
+      <p class="sub">Up to <b>80% off</b> on top brands.</p>
+      <button class="btn-brand">Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="hero-cards">
+      <div class="stat"><b>500+</b><span>Brands</span></div>
+      <div class="stat"><b>1M+</b><span>Products</span></div>
+      <div class="stat"><b>4.5★</b><span>Rated</span></div>
+    </div>
+  </section>
+
+  <section class="listing">
+    <h2>Books</h2>
+    <div class="products">
+
+        <div class="product-card">
+            <img src="data structurebook.jpg"  alt="DSA Book" />
+            <h3>Data Structures and Algorithms Made Easy</h3>
+            <p>CareerMonk</p>
+            <h4>₹799 <del>₹999</del> <span>(20% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="htmlcssbook.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Sams Teach Yourself HTML, CSS & JavaScript All in One</h3>
+            <p>Jennifer Kyrnin & Julie C. Meloni</p>
+  <         h4>₹899 <del>₹1199</del> <span>(25% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="javabook.jpg" alt="Effective Java Book" />
+            <h3>Effective Java - Third Edition</h3>
+            <p>Joshua Bloch</p>
+            <h4>₹999 <del>₹1499</del> <span>(33% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="javascriptbook.jpg" alt="HTML CSS JS Easy Steps" />
+            <h3>HTML, CSS & JavaScript in Easy Steps</h3>
+            <p>Mike McGrath</p>
+            <h4>₹799 <del>₹999</del> <span>(20% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="pythonbook.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Learning Python</h3>
+            <p>Mark Lutz</p>
+            <h4>₹899 <del>₹1299</del> <span>(31% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="pythoncrashcourseBook.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Python Crash Course</h3>
+            <p>Eric Matthes</p>
+            <h4>₹799 <del>₹999</del> <span>(20% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="c.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>The C Programming Language</h3>
+            <p>Brian Kernighan & Dennis Ritchie</p>
+            <h4>₹699 <del>₹899</del> <span>(22% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+        <div class="product-card">
+            <img src="c++.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Programming: Principles and Practice Using C++</h3>
+            <p>Bjarne Stroustrup</p>
+            <h4>₹999 <del>₹1499</del> <span>(33% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+         <div class="product-card">
+            <img src="java1Book.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Head First Java</h3>
+            <p>Kathy Sierra & Bert Bates</p>
+            <h4>₹849 <del>₹1199</del> <span>(29% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+         <div class="product-card">
+            <img src="algorithms.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Introduction to Algorithms</h3>
+            <p>Cormen, Leiserson, Rivest & Stein</p>
+            <h4>₹1299 <del>₹1999</del> <span>(35% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+         <div class="product-card">
+            <img src="secondalgorirhm.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>Grokking Algorithms</h3>
+            <p>Aditya Y. Bhargava</p>
+            <h4>₹699 <del>₹899</del> <span>(22% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+
+         <div class="product-card">
+            <img src="guide.jpg" alt="HTML CSS JS Book" width="" />
+            <h3>A Common-Sense Guide to Data Structures and Algorithms</h3>
+            <p>Jay Wengrow</p>
+            <h4>₹799 <del>₹1099</del> <span>(27% OFF)</span></h4>
+            <button>Add to Bag</button>
+        </div>
+    </div>
+  </section>
+
+  <aside class="drawer" id="cartDrawer">
+    <div class="drawer-head">
+      <h3>Shopping Bag</h3>
+      <button class="close" id="closeCart"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="drawer-body">
+      <div class="empty-drawer">Your bag is empty</div>
+    </div>
+    <div class="drawer-foot">
+      <div class="totals">
+        <div><span>Subtotal</span><b>₹0</b></div>
+      </div>
+      <button class="btn-brand full">Place Order</button>
+    </div>
+  </aside>
+
+  <div class="backdrop" id="backdrop"></div>
+
+  <footer class="footer">
+    <div class="foot-grid">
+
+      <div>
+        <h4>ONLINE SHOPPING</h4>
+        <p>Men</p>
+        <p>Women</p>
+        <p>Kids</p>
+        <p>Home</p>
+        <p>Beauty</p>
+        <p>Gift Cards</p>
+      </div>
+
+      <div>
+        <h4>CUSTOMER POLICIES</h4>
+        <p>Contact Us</p>
+        <p>FAQ</p>
+        <p>Terms of Use</p>
+        <p>Track Orders</p>
+        <p>Returns</p>
+      </div>
+
+      <div>
+        <h4>USEFUL LINKS</h4>
+        <p>Blog</p>
+        <p>Careers</p>
+        <p>Site Map</p>
+        <p>Corporate Information</p>
+      </div>
+
+      <div>
+        <h4>KEEP IN TOUCH</h4>
+        <div class="socials">
+          <a href="https://www.facebook.com"  target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.twitter.com"   target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.youtube.com"   target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p>💯 100% ORIGINAL guarantee for all products</p>
+      </div>
+
+    </div>
+    <div class="copy">© 2025 Myntra Clone — For learning purposes.</div>
+  </footer>
+
+  <script>
+    document.getElementById('openCart').addEventListener('click', function() {
+      document.getElementById('cartDrawer').classList.add('open');
+      document.getElementById('backdrop').classList.add('show');
+    });
+
+    document.getElementById('closeCart').addEventListener('click', function() {
+      document.getElementById('cartDrawer').classList.remove('open');
+      document.getElementById('backdrop').classList.remove('show');
+    });
+
+    document.getElementById('backdrop').addEventListener('click', function() {
+      document.getElementById('cartDrawer').classList.remove('open');
+      document.getElementById('backdrop').classList.remove('show');
+    });
+  </script>
+
+</body>
+</html>
