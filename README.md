@@ -32,7 +32,7 @@ navigation bar, programming book listings, product cards, and a responsive layou
 ## 🎯 Purpose
 - This project was created to practice front-end web development, improve HTML and CSS skills, and build a responsive e-commerce website interface.
 
-- ## 🔮 Future Improvements
+## 🔮 Future Improvements
 - Add JavaScript
 - Shopping Cart
 - Book Search
