@@ -1,13 +1,14 @@
-# 📚 Myntra Clone Book Store
+# 📚 Myntra Clone Store
 
-A beginner-friendly responsive **Myntra Clone for Books** website built using **HTML** and **CSS**.
-This project reimagines the Myntra shopping experience as an online bookstore, featuring a clean homepage, 
+A beginner-friendly responsive **Myntra Clone Store** website built using **HTML** and **CSS**.
+This project reimagines the Myntra shopping experience as an online Cloths Shopping, bookstore, featuring a clean homepage, 
 navigation bar, programming book listings, product cards, and a responsive layout.
 
 ## ✨ Features
 - Responsive Navigation Bar
 - Hero Banner
 - Programming Book Collection
+- Cloths For Men,Women,Childrens
 - Product Cards
 - Search Bar UI
 - Promotional Offer Section
@@ -28,6 +29,11 @@ navigation bar, programming book listings, product cards, and a responsive layou
 - JavaScript
 - Data Structures
 - More Programming Books
+
+## 👗 Fashion Categories
+- Men's Clothing
+- Women's Clothing
+- Kids' Wear
 
 ## 🎯 Purpose
 - This project was created to practice front-end web development, improve HTML and CSS skills, and build a responsive e-commerce website interface.
