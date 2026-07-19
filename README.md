@@ -47,4 +47,4 @@ navigation bar, programming book listings, product cards, and a responsive layou
 - Product Filter
 - Dark Mode
 
-💡 "Code with curiosity, build with confidence."
+💡 "Code with curiosity, build with confidence.."
