@@ -45,7 +45,7 @@ navigation bar, programming book listings, product cards, and a responsive layou
 - Wishlist
 - User Login
 - Product Filter
-- Dark Mode
+- Dark Mode And Light Mode 
 
 ## 🚀 Live Demo
 
