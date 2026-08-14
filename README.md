@@ -33,7 +33,7 @@ navigation bar, programming book listings, product cards, and a responsive layou
 ## 👗 Fashion Categories
 - Men's Clothing
 - Women's Clothing
-- Kids' Wear
+- Kids' Wear.
 
 ## 🎯 Purpose
 - This project was created to practice front-end web development, improve HTML and CSS skills, and build a responsive e-commerce website interface.
